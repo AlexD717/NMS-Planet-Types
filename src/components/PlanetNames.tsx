@@ -50,6 +50,7 @@ class PlanetNames {
                 ),
                 planetDescription:
                     "Barren Planets lack vegetation and are dominated by rock and dust, offering wide-open vistas and sparse life.",
+                resources: "Star Bulb (rare), Ferrite Dust, Deuterium",
                 link: `https://nomanssky.fandom.com/wiki/Biome_-_Barren`,
             },
         }))
@@ -63,6 +64,7 @@ class PlanetNames {
                 ),
                 planetDescription:
                     "Dead Planets are completely lifeless — no atmosphere, weather, or fauna — but often good for mining resources.",
+                resources: "Rich mineral veins; Cobalt and Ferrite Dust",
                 link: `https://nomanssky.fandom.com/wiki/Biome_-_Dead`,
             },
         }))

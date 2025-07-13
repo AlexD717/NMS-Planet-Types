@@ -1,0 +1,23 @@
+input {
+    border-block-color: white;
+    border-block-style: solid;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.suggestion-box {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.suggestion-item {
+    padding: 5px;
+    cursor: pointer;
+    background-color: #555555ff;
+}

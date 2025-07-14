@@ -5,6 +5,11 @@ input {
     width: 100%;
 }
 
+.input-wrapper {
+    position: relative;
+    width: 300px;
+}
+
 .suggestion-box {
     list-style: none;
     padding: 0;

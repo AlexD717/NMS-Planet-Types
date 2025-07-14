@@ -1,4 +1,5 @@
 import type { JSX } from "react"
+import React from "react"
 import "./PlanetInfo.css"
 
 export type PlanetInfoProps = {
@@ -19,7 +20,9 @@ const PlanetInfo: React.FC<PlanetInfoProps> = ({
     return (
         <div className={`planet-info`}>
             <h2>{planetType}</h2>
-            {planetImage}
+            {React.cloneElement(planetImage, {
+                style: { width: "auto", height: "30vw" },
+            })}
             <p className="planet-description">{planetDescription}</p>
             <p className="planet-description">Resources: {resources}</p>
             <a

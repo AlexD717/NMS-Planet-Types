@@ -21,6 +21,13 @@ function App() {
                 </p>
                 <PlanetInput onPlanetSelected={handlePlanetSelected} />
             </div>
+            <p style={{ marginTop: "0.1rem", marginBottom: "0.1rem" }}>
+                Note:{" "}
+                <i>
+                    If the planet name is not found, that planet is most likely
+                    exotic (exotic planets vary greatly from one another).
+                </i>
+            </p>
             {planetProps && <PlanetInfo {...planetProps} />}
         </div>
     )
